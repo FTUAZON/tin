@@ -24,7 +24,7 @@ body {
   position: relative;
   overflow: hidden;
   color: #ffffff;
-  overflow: hidden; /* Disable scroll */
+  overflow: hidden;
 }
 
 .video-container {
@@ -35,7 +35,6 @@ body {
   left: 0;
   border-radius: 30px 30px 0 0;
   overflow: hidden;
-  border-radius: 20px; /* Added border-radius */
 }
 
 iframe {
@@ -54,11 +53,6 @@ iframe {
   font-family: cursive;
   font-size: 40px;
 }
-
-.space {
-  height: 100px;
-}
-
 .credit a {
   text-decoration: none;
   color: #fff;
