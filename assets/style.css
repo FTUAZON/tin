@@ -16,24 +16,14 @@ body {
 .card {
   background: #12192c;
   border-radius: 30px;
-  height: 85vh;
-  max-height: 700px;
+  height: 90vh;
+  max-height: 500px;
   width: 70vw;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   text-align: center;
   position: relative;
   overflow: hidden;
   color: #ffffff;
-  overflow: hidden;
-}
-
-.video-container {
-  width: 100%;
-  height: 30%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 30px 30px 0 0;
   overflow: hidden;
 }
 
@@ -44,10 +34,11 @@ iframe {
 }
 
 .text {
-  padding: 3em;
+  padding: 1.5em; /* Adjust the padding to your preference */
   z-index: 1;
   position: relative;
 }
+
 
 .text h1 {
   font-family: cursive;
